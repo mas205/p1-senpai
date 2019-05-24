@@ -2,9 +2,11 @@
 Entrega para Senpai
 
 Para ejecutar es necesario instalar node (y npm) - ^9
+*recomiendo utilizar nvm -> $nvm install 10
 Luego en consola:
 $npm i
 $npm start
 
-Asegurate de tener disponible el puerto local 8000,
-finalmente dirigirse a localhost:8000 en un navegador para disfrutar de la pagina. 
+Es posible indicar un puerto como variable de env (env:NODE_PORT="3000" en ps o NODE_PORT=3000 on bash)
+^ antes de ejecutar npm start
+Sin embargo no es necesario, por defecto puerto 3000.
