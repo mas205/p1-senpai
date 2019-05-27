@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hola</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/jquery/scriptTest.js"></script> 
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="supreme-container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-warning main">
+                <a class="navbar-brand" href="/">Foxify</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/galleria">Galleria</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/registro">Registro<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/blog">Blog</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+              <nav class="navbar navbar-expand-lg navbar-light bg-warning secondary">
+                <a class="navbar-brand" href="/">Foxify</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/galleria">Galleria</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/registro">Registro<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/blog">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            <div class="insideFlexbox" style="height: auto;">
+                <div class="container cardy" style="border-radius: 1%; padding: 3%; padding-top:2%;">
+                    <hr>
+                    <h3 class="header"><b>Ingrese nuevo Zorro</b></h3>
+                    <hr>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                            <label for="inputNombre">Nombre:</label>
+                            <input type="text" class="form-control" id="inputNombre" placeholder="Nombre...">
+                            </div>
+                            <div class="form-group col-md-6">
+                            <label for="inputRaza">Raza:</label>
+                            <input type="text" class="form-control" id="inputRaza" placeholder="Raza...">
+                            </div>
+                            <div class="form-group col-md-6">
+                            <label for="inputNaturaleza">Naturaleza:</label>
+                            <input type="text" class="form-control" id="inputNaturaleza" placeholder="Naturaleza...">
+                            </div>
+                            <div class="form-group col-md-3">
+                            <label for="inputSexo">Sexo:</label>
+                            <select id="inputSexo" class="form-control">
+                                <option selected>Elige...</option>
+                                <option>Macho</option>
+                                <option>Hembra</option>
+                            </select>
+                            </div>
+                            <div class="form-group col-md-3">
+                            <label for="inputEdad">Edad:</label>
+                            <input type="number" class="form-control" id="inputEdad" placeholder="Edad...">
+                            </div>
+                            <div class="form-group col-md-6">
+                            <label for="inputPelaje">Color de pelaje:</label>
+                            <input type="text" class="form-control" id="inputPelaje" placeholder="Color de pelaje...">
+                            </div>
+                            <div class="form-group col-md-6">
+                            <label for="inputOjos">Color de ojos:</label>
+                            <input type="text" class="form-control" id="inputOjos" placeholder="Color de ojos...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputDescripcion">Descripcion:</label>
+                            <input class="form-control form-control-lg" id="inputDescripcion" type="text" placeholder="Descripcion...">
+                        </div>
+                        <div class="form-group">
+                            <label for="foxImageUpload">Ingrese la imagen del zorro</label>
+                            <input type="file" class="form-control-file" id="foxImageUpload">
+                        </div>
+                        <hr>
+                        <h3><b>Informacion de contacto del solicitante:</b></h3>
+                        <hr>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                            <label for="inputEmail">Email:</label>
+                            <input type="text" class="form-control" id="inputEmail">
+                            </div>
+                            <div class="form-group col-md-4">
+                            <label for="inputNombreU">Nombre:</label>
+                            <input type="text" class="form-control" id="inputNombreU">
+                            </div>
+                            <div class="form-group col-md-2">
+                            <label for="inputEdadU">Edad:</label>
+                            <input type="number" class="form-control" id="inputEdadU">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Confirmar terminos de uso
+                            </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary float-right">Registrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

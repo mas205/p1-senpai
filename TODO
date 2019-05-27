@@ -1,0 +1,6 @@
+-Agregar estrellita en /zorro (agregar a favoritos)
+-Agregar ruta para cada zorro /zorro/[0-9]{3}
+-Agregar Handlerbars
+-Implementar Sheet como base de datos de zorros
+-Traer zorros de la 'base de datos'
+-En /zorro probar diferentes resoluciones de fotos para dejar todo consistente

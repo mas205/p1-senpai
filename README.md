@@ -1,4 +1,11 @@
 # p1-senpai
+
+"""
+La idea es una pagina para "adoptar" un zorro,
+se dona una cierta cantidad de dinero dependiendo del costo de mantenimiento
+del zorro elegido y se recibe fotos, oportunidades para visitarlo, etc.
+"""
+
 Entrega para Senpai
 
 Para ejecutar es necesario instalar node (y npm) - ^9

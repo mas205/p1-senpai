@@ -1,14 +1,22 @@
 module.exports = (app) => {
     app.get('/', function (req, res) {
         //res.sendFile('index.html', {root : __dirname + '/views'});
-        res.redirect('/transformed')
+        res.redirect('/galleria')
     });
-    app.get('/decorated', function (req, res) {
+    app.get('/registro', function (req, res) {
         //res.sendFile('index.html', {root : __dirname + '/views'});
-        res.render('index2.html')
+        res.render('registro.html')
     });
-    app.get('/transformed', function (req, res) {
+    app.get('/galleria', function (req, res) {
         //res.sendFile('index.html', {root : __dirname + '/views'});
         res.render('index.html')
+    });
+    app.get('/zorro', function (req, res) {
+        //res.sendFile('index.html', {root : __dirname + '/views'});
+        res.render('zorro.html')
+    });
+    app.get('/blog', function (req, res) {
+        //res.sendFile('index.html', {root : __dirname + '/views'});
+        res.render('blog.html')
     });
 }
