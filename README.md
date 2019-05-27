@@ -11,7 +11,9 @@ Entrega para Senpai
 Para ejecutar es necesario instalar node (y npm) - ^9
 *recomiendo utilizar nvm -> $nvm install 10
 Luego en consola:
-$npm i
+
+cd /p1-senpai
+npm i
 $npm start
 
 Es posible indicar un puerto como variable de env (env:NODE_PORT="3000" en ps o NODE_PORT=3000 on bash)
